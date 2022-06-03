@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.cat{
+  height: 200px;
+  width: 200px;
+  border: 2px black solid;
+  padding: 50px ;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  color:rgb(32, 35, 206);
+  margin: 50px;
+}
+.listCat{
+ align-items: center;
+ display: inline-flex;
+}
+.item{
+width: 320px;
+height: 480px;
+background: #fffdfd;
+border-radius: 20px;
+overflow: hidden;
+border-left: 30px;
+display: inline-block;
+margin: 50px;
+
+}
+
+
+
+.itemImage{
+  
+ 
+  max-width: 50%;
+    max-height: 50%;
+  justify-content: center;
+  align-items: right;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.itemDetail{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.itemImage1{
+  
+ 
+  max-width: 50%;
+    max-height: 50%;
+  justify-content: center;
+  align-items: right;
+  padding-top: 20px;
+  z-index: 1;
+}
